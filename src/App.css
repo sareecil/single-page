@@ -1,0 +1,173 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #FFF7F0;
+}
+
+.container { 
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.header-btn {
+  color: white;
+  width: 258px;
+  height: 56px;
+  text-align: center;
+  border-radius: 40px;
+  background-color: black;
+  cursor: pointer;
+}
+
+.header-btn h3 {
+  padding-block: 12px;
+}
+
+.content {
+  margin-bottom: 100px;
+}
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.title p {
+  font-size: 20px;
+  color: #7A746E;
+}
+
+.img-content {
+  margin-left: 70px;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.bow-up {
+  display: flex;
+  gap: 25px;
+  padding-bottom: 25px;
+}
+
+.down-img {
+  padding-bottom: 17px;
+}
+
+.user-info {
+  display: flex;
+  gap: 130px;
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+
+.user-content {
+  width: 540px;
+  height: 100px;
+}
+
+.user-content h2 {
+  font-size: 40px;
+  margin-block: 20px;
+}
+
+.user-content p {
+  font-size: 18px;
+  color: #7A746E;
+  margin-bottom: 25px;
+}
+
+.user {
+  background-color: #EB7565;
+}
+
+.works {
+  text-align: center;
+}
+
+.works h3{
+  font-size: 32px;
+}
+
+.border {
+  border-radius: 15px;
+}
+
+.works-img {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 70px;
+}
+
+.cursor {
+  display: flex; 
+  gap: 20px;
+  justify-content: center;
+}
+
+.left {
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+.left img {
+  padding-top: 5px;
+}
+
+.footer {
+  color: #FFF7F0; 
+  background-color: black;
+  width: 1110px;
+  height: 320px;
+  border-radius: 12px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-cnt {
+  padding-block: 70px;
+  padding-inline: 50px;
+}
+
+.footer-cnt h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.footer-cnt p {
+  font-size: 19px;
+  width: 540px;
+  height: 84px;
+}
+
+.footer-btn {
+ margin-top: 15%;
+}
+
+.pointer {
+  cursor: pointer;
+}
