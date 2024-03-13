@@ -23,7 +23,7 @@ function App() {
           <div className="home-page">
             <div className="header">
               <div className="header-logo"><img src={logo} alt="" /></div>
-              <div className="header-btn"><h3>Ücretsiz Danışmanlık</h3></div>
+              <div className="header-btn purple-btn"><h3 className='h-btn'>Ücretsiz Danışmanlık</h3></div>
             </div>
             <div className="content">
               <div className="title">
@@ -55,7 +55,7 @@ function App() {
             <div className="user-content">
               <h2>Ben Amy ve bir sonraki projenizde çalışmayı çok isterim</h2>
               <p>Güzel tasarım çözümleri yaratmak için başkalarıyla birlikte çalışmayı seviyorum. Marka illüstrasyonlarından eksiksiz mobil uygulamalara kadar her şeyi tasarladım. Ayrıca kamera konusunda da becerikliyimdir!</p>
-              <div className="user header-btn"><h3>Ücretsiz Danışmanlık</h3></div>
+              <div className="user header-btn orange-btn"><h3>Ücretsiz Danışmanlık</h3></div>
             </div>
           </div>
       </div>
@@ -67,10 +67,10 @@ function App() {
           <img src={img10} alt="" className='border pointer'/>
         </div>
         <div className="cursor">
-          <button className="left pointer">
+          <button className="left pointer purple-btn">
             <img src={img11} alt="" />
           </button>
-          <button className="left pointer">
+          <button className="left pointer purple-btn">
             <img src={img12} alt="" />
           </button>
         </div>
@@ -80,7 +80,7 @@ function App() {
           <h2>Benimle bir görüşme rezervasyonu yapın</h2>
           <p>Size nasıl yardımcı olabileceğimi görmek için sohbet etmeyi çok isterim. Bizim için en iyi ilk adım, ücretsiz danışmanlık sırasında projenizi tartışmamızdır. Daha sonra oradan ilerleyebiliriz.</p>
         </div>
-        <div className="user header-btn footer-btn"><h3>Ücretsiz Danışmanlık</h3></div>
+        <div className="user header-btn footer-btn purple-btn"><h3>Ücretsiz Danışmanlık</h3></div>
       </div>
     </>
   )

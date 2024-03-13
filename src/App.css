@@ -171,3 +171,17 @@ body {
 .pointer {
   cursor: pointer;
 }
+
+.h-btn {
+  border: none;
+  background-color: transparent;
+  color: #FFF7F0;
+}
+
+.purple-btn:hover {
+  background-color: #755CDE;
+}
+
+.orange-btn:hover {
+  background-color: #F6A560;
+}
