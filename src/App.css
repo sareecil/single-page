@@ -189,7 +189,8 @@ body {
 
 @media (max-width: 769px) {  
   .container {
-    width: 670px
+    width: 570px;
+    margin: 0 auto;
   }
  .header {
     display: grid;
@@ -198,17 +199,16 @@ body {
   }
   .title h1 {
     width: 520px;
-    margin-left: 60px;
+    margin-left: 30px;
   }
 
   .title p {
     width: 420px;
-    margin-left: 105px;
+    margin-left: 85px;
   }
 
   .img-content {
     display: block;
-    margin-left: 160px;
   }
   .box-three {
     .down-img {
@@ -220,6 +220,10 @@ body {
   .user-info {
     display: block;
     margin-bottom: 370px;
+    margin-left: 60px;
+  }
+
+  .user-info h2 {
     text-align: center;
   }
 
@@ -227,8 +231,19 @@ body {
     width: 490px;
     text-align: center;
   }
+  .works h3 {
+    margin-bottom: 30px;
+  }
+  .works-img {
+    display: block;
+  }
+
+  .cursor {
+    display: none;
+  }
 
   .user {
+    margin-left: 30px;
     margin: 0 auto;
   }
 
