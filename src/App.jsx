@@ -16,6 +16,16 @@ import img12 from './assets/img/right-img.svg'
 
 
 function App() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const images = [img8, img9, img10];
+
+  const prevImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length -1 : prevIndex -1));
+  }
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex === images.length- 1 ? 0 : prevIndex + 1))
+  }
 
   return (
     <>
@@ -67,10 +77,10 @@ function App() {
           <img src={img10} alt="" className='border pointer'/>
         </div>
         <div className="cursor">
-          <button className="left pointer purple-btn">
+          <button className="left pointer purple-btn" onClick={prevImage}>
             <img src={img11} alt="" />
           </button>
-          <button className="left pointer purple-btn">
+          <button className="left pointer purple-btn" onClick={nextImage}>
             <img src={img12} alt="" />
           </button>
         </div>

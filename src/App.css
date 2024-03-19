@@ -17,6 +17,7 @@ body {
 .container { 
   width: 1280px;
   margin: 0 auto;
+  display: grid;
 }
 
 .header {
@@ -184,4 +185,57 @@ body {
 
 .orange-btn:hover {
   background-color: #F6A560;
+}
+
+@media (max-width: 769px) {  
+  .container {
+    width: 670px
+  }
+ .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 30px;
+  }
+  .title h1 {
+    width: 520px;
+    margin-left: 60px;
+  }
+
+  .title p {
+    width: 420px;
+    margin-left: 105px;
+  }
+
+  .img-content {
+    display: block;
+    margin-left: 160px;
+  }
+  .box-three {
+    .down-img {
+      display: block;
+      padding-top: 20px;
+    }
+  }
+
+  .user-info {
+    display: block;
+    margin-bottom: 370px;
+    text-align: center;
+  }
+
+  .user-info p {
+    width: 490px;
+    text-align: center;
+  }
+
+  .user {
+    margin: 0 auto;
+  }
+
+  .footer {
+    display: block;
+    height: 442px;
+    width: 650px;
+    text-align: center;
+  }
 }
